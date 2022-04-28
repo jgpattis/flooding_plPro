@@ -8,7 +8,7 @@ This repository contains the the setup and analysis code for running and analysi
 
 In a flooding simulation high concentrations of ligand are placed in a simulation box to encourage rapid binding.
 
-This code was run with:
+This code was run with:   
 python 3.8.8   
 mdtraj 1.9.3   
 pyemma 2.5.7   
