@@ -1,6 +1,6 @@
 the flooding simulations were set up using the following protocol.   
 the protocol used in this paper is provided in flooding_setup.sh (not a fully automated script)   
-a semi-automated generic setup is provided with automated_setup.sh
+a more generic setup is provided with generic_setup.sh
 
 1. Download charmm36m for gromacs http://mackerell.umaryland.edu/charmm_ff.shtml
 2. Protonate protein with propka 3.4 pdb2pqr 3.3.3 
@@ -17,10 +17,11 @@ a semi-automated generic setup is provided with automated_setup.sh
     - Conc_to_num 0.1 molar is 85 ligands 
 11. insert small molecule with
     - gmx insert-molecules
-12. solvate your system
-13. Add 0.15 M ions to the system
-14. Generate restraints for ligand with genrestr
-15. run energy minimization
-16. run NPT equilibration for 0.5 ns with position restraints
-17. run NVT equilibration for 0.5 ns with position restraints
-18. run production NVT simulations!
+12. add prm, itp, and molecules lines for small molecule to protein topology file
+13. solvate your system
+14. Add 0.15 M ions to the system
+15. Generate restraints for ligand with genrestr
+16. run energy minimization
+17. run NPT equilibration for 0.5 ns with position restraints
+18. run NVT equilibration for 0.5 ns with position restraints
+19. run production NVT simulations!
