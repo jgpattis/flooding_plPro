@@ -8,3 +8,5 @@ next run all_one_exposons.py
 
 finally run plot_exposons.py    
    - plots exposons    
+
+exposons_9_6_all9_VMD_selection.txt contains strings to visualize exposons in VMD
