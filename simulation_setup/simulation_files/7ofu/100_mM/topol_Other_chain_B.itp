@@ -1,0 +1,33 @@
+;
+;	File 'topol_Other_chain_B.itp' was generated
+;	By user: jasonpattis (1001)
+;	On host: Temple-Precision-T7600
+;	At date: Thu Dec 30 14:15:37 2021
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2021.4 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin//gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /home/jasonpattis/flooding/7ofu
+;	Command line:
+;	  gmx pdb2gmx -f 7ofu_h.pdb -o 7ofu_pqr.pdb
+;	Force field was read from the standard GROMACS share directory.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Other_chain_B       3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 604 ZN2 rtp ZN2  q +2.0
+     1         ZN    604    ZN2     ZN      1          2      65.37   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Other_chain_B.itp"
+#endif
+
