@@ -1,6 +1,6 @@
 the flooding simulations were set up using the following protocol.   
 the protocol used in this paper is provided in flooding_setup.sh (not a fully automated script)   
-a more generic setup is provided with generic_setup.sh
+
 
 1. Download charmm36m for gromacs http://mackerell.umaryland.edu/charmm_ff.shtml
 2. Protonate protein with propka 3.4 pdb2pqr 3.3.3 
