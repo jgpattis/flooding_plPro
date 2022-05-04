@@ -6,7 +6,11 @@ This repository contains the the setup and analysis code for running and analysi
     Authors
     Journal
 
-In a flooding simulation high concentrations of ligand are placed in a simulation box to encourage rapid binding.
+In a flooding simulation high concentrations of ligand are placed in a simulation box to encourage rapid binding.   
+
+The simulaton_setup directory contains files to set up flooding simulations and input files to re-run our flooding simulations of plpro   
+
+The analysis directory contains the analysis of the flooding simulations for our paper   
 
 This code was run with:   
 python 3.8.8   
