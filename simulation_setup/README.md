@@ -6,7 +6,7 @@ the protocol used in this paper is provided in flooding_setup.sh (not a fully au
 2. Protonate protein with propka 3.4 pdb2pqr 3.3.3 
     - pdb2pqr30 --ff CHARMM --ffout CHARMM --pdb-output 7ofs_h.pdb 7ofs_prot.pdb 7ofs_h.pqr
 3. Examine ZN coordinating CYS make sure they are deprotonated and change resname to CYM to keep them deprotonated. Zinc coordinated by 189, 192, 224, 226
-4. Protonate small molecule with maestro and save as mol2
+4. Protonate small molecule with Maestro and save as mol2
 5. Convert protein pdb to gromacs format
     - Pdb2gmx protein only
 7. Submit small molecule to paramchem https://cgenff.umaryland.edu/
